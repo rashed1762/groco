@@ -133,6 +133,33 @@ body{
 }
 
 
+.item-review{
+    border: 1px solid black;
+    text-align: center;
+    height: 340px;
+    border-radius: 10px;
+}
+.review-info{
+    width: 320px;
+    height: 220px;
+    text-align: center;
+}
+.review-img{
+    border-radius: 50px;
+    margin-left: 140px;
+    margin-top: 50px;
+    
+}
+.blog{
+    margin-top: 80px;
+}
+.b1{
+    font-size: 28px;
+    
+}
+
+
+
 
 
 
