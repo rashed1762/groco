@@ -138,6 +138,7 @@ body{
     text-align: center;
     height: 340px;
     border-radius: 10px;
+    border-bottom: 1px solid black;
 }
 .review-info{
     width: 320px;
@@ -157,6 +158,27 @@ body{
     font-size: 28px;
     
 }
+.footer i{
+    font-size: 20px;
+    color: blueviolet;
+    padding: 4px;
+    cursor: pointer;
+    
+    
+}
+.footer i:hover{
+    color: brown;
+}
+.rashed{
+    color: rgb(237, 11, 237);
+}
+.quick-link i{
+    text-decoration: none;
+}
+.line{
+    text-decoration: none;
+}
+
 
 
 
