@@ -1,4 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+.navbar-brand{
+    font-family: 'Rubik Distressed', cursive;
+    font-size: 30px;
+}
 .logo-img{
     height: 70px;
     width: 70px;
+}
+.icon i{
+    font-size: 25px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: rgb(237, 229, 229);
+    border-radius: 10px;
+}
+.icon i:hover{
+    background-color: rgb(144, 144, 246);
+}
+.nav-link{
+    font-size: 25px;
+    font-family: 'Rubik Distressed', cursive;
+}
+.nav-link:hover{
+    text-decoration: underline;
+    
+}
+#menu-btn{
+    display: none;
+}
+
+.banner{
+    background-image: url("img/banner-bg.webp");
+    height: 620px;
+    width: 100%;
+    
+}
+.banner-info{
+    text-align: center;
+    padding-top: 220px;
+}
+.organic{
+    color: rgb(227, 10, 10);
 }
