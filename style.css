@@ -48,7 +48,7 @@ body{
     color: rgb(227, 10, 10);
 }
 .feature{
-    margin-top: 50px;
+    
 }
 .feature-part{
     margin-left: 200px;
@@ -61,6 +61,7 @@ body{
     width: 320px;
     height: 370px;
     box-shadow: 10px 10px 20px grey;
+    border-radius: 20px;
     
     
 }
@@ -91,6 +92,7 @@ body{
     width: 320px;
     height: 370px;
     box-shadow: 10px 10px 20px grey;
+    border-radius: 20px;
 }
 
 .colum3{
@@ -100,6 +102,7 @@ body{
     width: 320px;
     height: 370px;
     box-shadow: 10px 10px 20px grey;
+    border-radius: 20px;
 }
 .fimg{
     margin-left: 30px;
@@ -118,9 +121,20 @@ body{
     border-radius: 10px;
     
 }
-.card{
-    width: 120px;
+.cart{
+    display: flex;
 }
+.ct-2{
+    margin-left: 305px;
+    background-color: rgb(186, 183, 136);
+}
+.ct-1{
+    background-color: rgb(186, 183, 136);
+}
+
+
+
+
 
 
 
