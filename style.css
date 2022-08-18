@@ -10,6 +10,26 @@ body{
     height: 70px;
     width: 70px;
 }
+.search-form{
+    position: absolute;
+    top: 0; right:0;
+    margin-top: 100px;
+    overflow: hidden;
+    display: none;
+    
+
+
+}
+.search-form.active{
+    display: inline;
+    right: 0;
+    transition: .1s ;
+
+}
+#search-box{
+    width: 320px;
+    height: 35px;
+}
 .icon i{
     font-size: 25px;
     padding: 5px;
@@ -30,6 +50,65 @@ body{
 }
 #menu-btn{
     display: none;
+}
+.shopping-cart{
+    position: absolute;
+    top: 0; right: 0;
+    margin-top: 100px;
+    margin-right: 10px;
+    display: none;
+    
+    
+}
+.shopping-cart.active{
+    display: inline;
+}
+
+.box1{
+    background-color:white;
+    width: 320px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px rgb(156, 249, 158);
+    
+}
+.cimg{
+    width: 100px;
+    height: 100px;
+}
+.watermilon{
+    margin-left: 10px;
+    margin-top: 20px;
+    
+}
+.login-form{
+    position: absolute;
+    top: 0; right: 0;
+    margin-top: 100px;
+    margin-right: 10px;
+    border-radius: 10px;
+    display: none;
+    
+}
+.login-form.active{
+    display: inline;
+}
+.login{
+    background-color: rgb(101, 243, 226);
+    width: 230px;
+    height: 200px;
+    border-radius: 10px;
+    
+    
+}
+.img-3{
+    width: 120px;
+}
+.scart-img{
+
+}
+.fa-trash{
+    margin-left: 100px;
+    margin-top: 25px;
 }
 
 .banner{
@@ -119,9 +198,11 @@ body{
     text-align: center;
     background-color: rgb(211, 166, 168);
     border-radius: 10px;
+    box-shadow: 10px 10px 20px gray;
     
 }
 .cart{
+
     display: flex;
 }
 .ct-2{
@@ -177,6 +258,9 @@ body{
 }
 .line{
     text-decoration: none;
+}
+.card{
+    box-shadow: 10px 10px 20px rgb(19, 207, 163);
 }
 
 
